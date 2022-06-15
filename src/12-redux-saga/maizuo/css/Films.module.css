@@ -1,0 +1,23 @@
+.lineHeight {
+  color: red !important;
+}
+
+#swiper {
+  background: blue;
+  height: 200px;
+}
+
+.films .tab {
+  display: flex;
+}
+
+.films .tab > li {
+  flex: 1;
+  text-align: center;
+  line-height: 36px;
+}
+
+/* 如果希望某个class不被重命名，可以使用:global()包裹住选择器 */
+:global(.xxx) {
+  color: #fff;
+}

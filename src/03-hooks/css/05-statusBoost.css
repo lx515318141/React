@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+}
+
+.statusBoost {
+  display: flex;
+  justify-content: space-between;
+}
+
+.item {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+}
+.item > img {
+  width: 70px;
+  height: 100px;
+}
+.item > .info > p {
+  margin-bottom: 10px;
+}
+
+.filmData {
+  background: rgb(233, 248, 25);
+  width: 400px;
+  height: 400px;
+}

@@ -1,0 +1,22 @@
+.tabbar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #fff;
+  z-index: 1;
+}
+
+.tabbar ul {
+  display: flex;
+  text-align: center;
+}
+
+.tabbar li {
+  flex: 1;
+  line-height: 34px;
+}
+
+.lineHeight {
+  color: yellow;
+}
